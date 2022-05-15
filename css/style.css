@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    max-width: 100%;
+    margin: 50px auto;
+}
+.container h1{
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.contactinfo{
+    background-color: rgba(182, 179, 179, 0.364);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.contactinfo p{
+    width: 90%;
+    font-size: 20px;
+    color: #fff;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.orive{
+    display: flex;
+}
+.left{
+    flex-basis: 50%;
+}
+.right{
+    flex-basis: 50%;
+}
+input{
+    width: 90%;
+    max-width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(182, 179, 179, 0.525);
+    cursor: pointer;
+    margin-top: 30px;
+}
+::placeholder{
+    color: #fff;
+    font-size: 20px;
+}
+input:hover{
+    border: 3px solid rgb(76, 108, 164);
+}
+textarea{
+    width: 100%;
+    height: 88%;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(182, 179, 179, 0.525);
+    cursor: pointer;
+}
+textarea:hover{
+    border: 3px solid rgb(76, 108, 164);
+}
+.btnn a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(182, 179, 179, 0.525);
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    border: 3px solid #fff;
+    max-width: 100%;
+}
+.btnn{
+    margin-top: 40px;
+}
